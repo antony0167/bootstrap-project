@@ -1,0 +1,74 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <title>Recipes</title>
+    </head>
+    <body>
+        <div class="container-xxl" id="home">
+            <div class="row">
+                    <nav class="navbar navbar-expand bg-body-secondary">
+                        <a class="navbar-brand ms-4" href="#"><i class="bi bi-book-half"></i></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#soup">Soups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#course">2nd Courses</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#desert">Deserts</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container bg-light">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-8 text-center my-5">
+                    <h2 class="mb-4">Ola and Antek's Famouse Recipes</h2>
+                    <p>Here is the place where Ola and me store our most precious recipes. Recipes passed through generations by our ancestors that now we are going to share with the world. Please enjoy them.</p>
+                </div>
+                <img src="https://papier.imgix.net/https%3A%2F%2Fwww.papier.com%2Fproduct_image%2F136758%2F36%2Fjoy-36743_front_1688741829.png?ixlib=rb-3.2.1&auto=format%2Ccompress&s=64bfbd21e1702522209e86d94ca916cd" alt="recipe book" class="col-lg-4 d-none d-lg-flex img-fluid">
+            </div>
+        </div>
+
+        <section id="soup">
+            <div class="container-lg m-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="pills-ciorba-tab" data-bs-toggle="pill" data-bs-target="#pills-ciorba" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Ciorba</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="pills-vegetable-tab" data-bs-toggle="pill" data-bs-target="#pills-vegetable" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Vegetable</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="pills-chicken-tab" data-bs-toggle="pill" data-bs-target="#pills-chicken" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Chicken</button>
+                            </li>
+                          </ul>
+                          <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-ciorba" role="tabpanel" aria-labelledby="pills-ciorba-tab" tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate accusantium obcaecati optio aperiam exercitationem facere nesciunt. Eveniet eos fugiat accusantium temporibus, vitae ex error, sed cumque excepturi ab ullam similique?</div>
+                            <div class="tab-pane fade" id="pills-vegetable" role="tabpanel" aria-labelledby="pills-vegetable-tab" tabindex="0">...</div>
+                            <div class="tab-pane fade" id="pills-chicken" role="tabpanel" aria-labelledby="pills-chicken-tab" tabindex="0">...</div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
+</html>
